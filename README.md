@@ -38,7 +38,7 @@ This will start the server on port 3000 and listen for incoming messages from th
 
 ### Running Unity3D
 
-To start the VR world, you will need to open the Unity3D project and press the Play button.
+To start the VR world, you will need to open the [Unity3D project](https://drive.google.com/file/d/19hGW-0N1CVpwQZsCQTHoWVReVM1cIccg/view?usp=drive_link) and press the Play button.
 
 Once both the server and the VR world are running, you can use your voice to control 3D objects in the VR world. 
 
