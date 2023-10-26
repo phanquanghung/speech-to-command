@@ -1,4 +1,4 @@
-# speech-to-command
+# Speech-to-Command
 Server for a VR world that enables users to use their voice to control 3D objects, like hiding, pulling, or pushing them.
 
 ## Overview
@@ -45,8 +45,23 @@ Once both the server and the VR world are running, you can use your voice to con
 To start voice command, point your controller at an object and press the trigger. This will start recording and send the audio to the server for speech-to-command processing.
 
 The following are some examples of voice commands:
-- Get over here!
-- Show yourself!
-- Put on camouflage!
+- Get over here! -> towards
+- Show yourself! -> show
+- Put on camouflage! -> hide
+
+## Limitations
+This project is still under development and has the following limitations:
+
+- Voice recording is currently done on the server side because I am not proficient in C#, the programming language of Unity3D. This may affect voice recognition and command execution performance.
+
+- The socket connection between the server and the VR client can be disconnected unexpectedly. This can happen due to network issues, server errors, or VR client crashes. 
+
+- The VR environment is currently plain and simple due to time constraints and the limitations of my hardware.
+
+I am working to address these limitations and improve the project over time.
 
 ## Acknowledgements
+
+I hope that this project will be useful to the community and that it will help to make VR experiences more immersive and accessible.
+
+I hope you enjoy trying my speech-to-command VR experience as much as I enjoyed creating it. 😊
