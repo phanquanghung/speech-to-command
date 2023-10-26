@@ -8,7 +8,7 @@ The project uses the WhisperX speech-to-text module to convert the user's speech
 The project is divided into two parts: the Python server and the VR Environment (C#) client. The server handles all of the speech-to-text/text-to-command processing and communication with the VR world. The Unity3D VR environment implements voice commands to modify the selected object's position or appearance.
 
 ## Installation
-To reproduce exact results, I recommend installing an environment identical to mine. You also need to have a VR headset, such as Oculus Rift or HTC Vive, connected to your computer.
+To reproduce exact results, I recommend installing an environment identical to mine. You also need to have a VR headset, such as Meta Quest 2, connected to your computer.
 
 1. Create a new conda environment with
 
@@ -66,4 +66,4 @@ I am working to address these limitations and improve the project over time.
 
 I hope that this project will be useful to the community and that it will help to make VR experiences more immersive and accessible.
 
-I hope you enjoy trying my speech-to-command VR experience as much as I enjoyed creating it. 😊
+May you enjoy trying my speech-to-command VR experience as much as I enjoyed creating it. 😊
