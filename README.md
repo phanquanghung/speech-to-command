@@ -38,7 +38,7 @@ This will start the server on port 3000 and listen for incoming messages from th
 
 ### Running Unity3D
 
-To start the VR world, you will need to open the [Unity3D project](https://drive.google.com/file/d/19hGW-0N1CVpwQZsCQTHoWVReVM1cIccg/view?usp=drive_link) and press the Play button.
+To start the VR world, you will need to open the [Unity3D project](https://drive.google.com/file/d/19hGW-0N1CVpwQZsCQTHoWVReVM1cIccg/view?usp=drive_link) and press the `Play` button.
 
 Once both the server and the VR world are running, you can use your voice to control 3D objects in the VR world. 
 
@@ -46,10 +46,10 @@ To start voice command, point your controller at an object and press the trigger
 
 The following are four voice commands available and their examples:
 
-- Put on camouflage! -> hide
-- Show yourself! -> show
-- Back off! -> away
-- Get over here! -> towards
+- Put on camouflage! -> `hide`
+- Show yourself! -> `show`
+- Back off! -> `away`
+- Get over here! -> `towards`
 
 ## Limitations
 This project is still under development and has the following limitations:
