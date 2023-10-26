@@ -44,10 +44,12 @@ Once both the server and the VR world are running, you can use your voice to con
 
 To start voice command, point your controller at an object and press the trigger. This will start recording and send the audio to the server for speech-to-command processing.
 
-The following are some examples of voice commands:
-- Get over here! -> towards
-- Show yourself! -> show
+The following are four voice commands available and their examples:
+
 - Put on camouflage! -> hide
+- Show yourself! -> show
+- Back off! -> away
+- Get over here! -> towards
 
 ## Limitations
 This project is still under development and has the following limitations:
