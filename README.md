@@ -46,10 +46,10 @@ To start voice command, point your controller at an object and press the trigger
 
 The following are four voice commands available and their examples:
 
-- Put on camouflage! -> `hide`
-- Show yourself! -> `show`
-- Back off! -> `away`
-- Get over here! -> `towards`
+- `hide` : "Put on camouflage!"
+- `show` : "Show yourself!"
+- `away` : "Back off!"
+- `towards` : "Get over here!"
 
 ## Limitations
 This project is still under development and has the following limitations:
