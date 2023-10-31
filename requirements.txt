@@ -1,5 +1,5 @@
 eventlet==0.33.3
 pyaudio==0.2.13
 python-socketio==5.10.0
-torch==2.1.0
 transformers==4.34.1
+accelerate==0.24.1
