@@ -17,11 +17,22 @@ conda create --name myenv python=3.9
 conda activate myenv
 ```
 
-2. Install [WhisperX](https://github.com/m-bain/whisperX#3-install-this-repo)
+2. Install [PyTorch](https://pytorch.org/get-started/locally/)
 
-This speech-to-text module requires CUDA 11 or lower versions to run. Please make sure you have the compatible CUDA version installed before running this module.
+```
+# Linux and Windows
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
 
-3. Install the remaining dependencies:
+3. Install [WhisperX](https://github.com/m-bain/whisperX#3-install-this-repo)
+
+```
+pip install git+https://github.com/m-bain/whisperx.git
+```
+
+This speech-to-text module requires CUDA 11 to run. Please make sure you have the compatible CUDA version installed before running this module.
+
+4. Install the remaining dependencies:
 
 ```
 pip install -r requirements.txt
