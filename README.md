@@ -38,6 +38,10 @@ This speech-to-text module requires CUDA 11 to run. Please make sure you have th
 pip install -r requirements.txt
 ```
 
+5. Set your recording device
+
+Set the `input_device_index` in `utils/record.py` to the index of your chosen microphone to record voice commands.
+
 ## Usage
 ### Running the server
 
